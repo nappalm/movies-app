@@ -1,10 +1,10 @@
-![](assets/logo-gray.png)
+
 # Prueba técnica — React developer
 
 
 ## Objetivo
 
-El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en chedoc. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y su capacidad para resolver problemas.
+El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en Devontic. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y TypeScript para validad capacidades de resolver problemas.
 
 Pondremos el foco en obtener un **código simple, bien diseñado y organizado, eficaz y testeado**, así como el cumplimiento de todos los requerimientos solicitados.
 
@@ -14,7 +14,7 @@ Pondremos el foco en obtener un **código simple, bien diseñado y organizado, e
 - Se deberá clonar este repositorio para poder modificarlo y completarlo con la resolución del proyecto.
 - Una vez que su código esté listo, suba el código a un repositorio público propio y envíenos el enlace a dicho repositorio para que lo revisaremos.
 
-> Se pueden utilizar herramientas como [create-react-app](https://github.com/facebookincubator/create-react-app) y similares para inicializar el proyecto.
+> Se debe crear un proyecto de react con el framer Next.js => https://nextjs.org/docs/getting-started.
 
 
 ## Prueba técnica
@@ -98,7 +98,7 @@ Para el desarrollo de la aplicación deberá utilizar:
 
 - React / React Hooks
 - Redux
-- Librería de estilos (styled-components, CSS modules, o similar)
+- Librería de estilos https://mui.com/
 - Mobile friendly
 - Unit tests (jest, react-testing-library, o similar)
 - Manejo de errores
@@ -109,7 +109,7 @@ Para el desarrollo de la aplicación deberá utilizar:
 
 Importante saber:
 - No es necesario crear un entorno de desarrollo/producción.
-- Se pueden utilizar otras librerías que crea conveniente, aunque se recomienda proporcionar una solución básica ajustada a lo solicitado, ya que nuestro objetivo principal es evaluar sus habilidades con React y Javascript.
+- Se pueden utilizar otras librerías que crea conveniente, aunque se recomienda proporcionar una solución básica ajustada a lo solicitado, ya que nuestro objetivo principal es evaluar sus habilidades con React y TypeScript.
 - Como empresa, creemos que la comunicación es la clave del éxito. Entonces, si algo no está claro, o si tiene dudas sobre la tarea, consultanos!
 
 
