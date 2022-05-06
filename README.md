@@ -1,4 +1,4 @@
-
+![](assets/white_textlogo_black_background.png)
 # Prueba técnica — React developer
 
 
