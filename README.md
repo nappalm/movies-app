@@ -100,9 +100,9 @@ Para el desarrollo de la aplicación deberá utilizar:
 - Redux
 - Librería de estilos https://mui.com/
 - Mobile friendly
-- Unit tests (jest, react-testing-library, o similar)
+- TypeScript
 - Manejo de errores
-- _(opcional)_ TypeScript
+- _(opcional)_ Unit tests (jest, react-testing-library, o similar)
 - _(opcional)_ Integration/E2E tests
 - _(opcional)_ Deploy automático
 - _(opcional)_ ...
