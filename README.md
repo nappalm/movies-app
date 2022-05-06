@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en Devontic. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y TypeScript para validad capacidades de resolver problemas.
+El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en Devontic. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y TypeScript para validar capacidades de resolver problemas.
 
 Pondremos el foco en obtener un **código simple, bien diseñado y organizado, eficaz y testeado**, así como el cumplimiento de todos los requerimientos solicitados.
 
