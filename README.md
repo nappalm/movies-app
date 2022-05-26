@@ -1,6 +1,6 @@
 ![plot](./public/preview.png)
 
-## 🔥 [Demo](https://movies-5vx5o7dp1-nappalm.vercel.app/series)
+## 🔥 [Demo](https://movies-5vx5o7dp1-nappalm.vercel.app)
 
 ## 🔰 Available Scripts
 
@@ -20,3 +20,18 @@ Emotion Styles, Next.Js, React.JS, Redux, Typescript
 ## 🗂 Dev Libraries
 
 Eslint, Prettier
+
+## 📢 Comments
+
+### ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución?
+
+🔸Por mi experiencia en proyectos similares.
+
+### ¿Hay alguna mejora que pueda hacer en su envío?
+
+🔸Mejorar la organización de archivos, aunque prácticamente es un proyecto pequeño
+en un caso realista es algo a tomar en cuenta.
+
+### ¿Qué haría de manera diferente si se le asignara más tiempo?
+
+🔸 Integrar pruebas
