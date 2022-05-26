@@ -1,13 +1,14 @@
 import { useSelector } from 'react-redux'
-import { Movies } from '../redux/reducer'
-
-import { Flex, Heading } from '@chakra-ui/react'
+import { Heading, Flex } from '@chakra-ui/react'
 
 import Animation from '../components/animation'
 import MovieGrid from '../components/movies/grid'
+import { MovieList } from '../types/movies'
 
 const MoviesPage = () => {
-  const movies = useSelector<Movies, Movies['entries']>(state => state.entries)
+  const movies = useSelector<MovieList, MovieList['entries']>(
+    state => state.entries
+  )
 
   return (
     <>
