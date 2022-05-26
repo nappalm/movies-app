@@ -1,0 +1,47 @@
+{
+  "name": "movies-app",
+  "version": "1.0.0",
+  "description": "Movies app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nappalm/movies-app.git"
+  },
+  "author": "Manuel Morales <ppjuan_94@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nappalm/movies-app/issues"
+  },
+  "homepage": "https://github.com/nappalm/movies-app#readme",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.1",
+    "@chakra-ui/react": "^2.1.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@types/lodash": "^4.14.182",
+    "@types/react-redux": "^7.1.24",
+    "framer-motion": "^6.3.0",
+    "lodash": "^4.17.21",
+    "next": "^12.1.6",
+    "nextjs-progressbar": "0.0.14",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.2"
+  }
+}
