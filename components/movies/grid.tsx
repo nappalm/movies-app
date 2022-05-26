@@ -5,6 +5,7 @@ import { chain } from 'lodash'
 import MovieCard from './card'
 import ModalInfo from './modal-info'
 import Loading from './_loading'
+import Animation from '../animation'
 
 import { MovieEntries, MovieItem } from '../../types/movies'
 
@@ -32,8 +33,8 @@ const GridTemplate: FC<GridBaseProps> = props => {
 
         return movie.programType === filter
       })
-      .sampleSize(20)
       .orderBy(['title'], ['asc'])
+      .sampleSize(20)
       .value()
 
     // En un caso más real no es necesario un interval
@@ -51,19 +52,21 @@ const GridTemplate: FC<GridBaseProps> = props => {
   return (
     <>
       <ModalInfo isOpen={isOpen} onClose={onClose} {...movieSelected} />
-      <SimpleGrid gap={5} columns={[1, 2, 5, 6]}>
-        {moviesFiltered.map((item, i) => (
-          <MovieCard
-            key={i}
-            title={item.title}
-            image={item.images['Poster Art'].url}
-            onClick={() => {
-              setMovieSelected(item)
-              onOpen()
-            }}
-          />
-        ))}
-      </SimpleGrid>
+      <Animation>
+        <SimpleGrid gap={5} columns={[1, 2, 5, 6]}>
+          {moviesFiltered.map((item, i) => (
+            <MovieCard
+              key={i}
+              title={item.title}
+              image={item.images['Poster Art'].url}
+              onClick={() => {
+                setMovieSelected(item)
+                onOpen()
+              }}
+            />
+          ))}
+        </SimpleGrid>
+      </Animation>
     </>
   )
 }

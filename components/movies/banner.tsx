@@ -48,7 +48,6 @@ const Banner: FC<BannerBaseProps> = props => {
             <Heading variant="section-title" as="h1" size="lg">
               {preview.title}
             </Heading>
-            <Flex></Flex>
             <Text>Año: {preview.releaseYear}</Text>
             <Text>Descripción:</Text>
             <Text w="container.sm">{preview.description}</Text>
