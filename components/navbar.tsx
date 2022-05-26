@@ -53,7 +53,7 @@ const Navbar: FC<NavBarProps> = props => {
         display="flex"
         h="3.5rem"
         maxW="8xl"
-        wrap="wrap"
+        flexWrap="wrap"
         align="center"
         justify="space-between"
       >
