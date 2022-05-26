@@ -11,7 +11,7 @@ type ProgramTypes = 'movie' | 'series' | ''
 export interface MovieItem {
   title: string
   description?: string
-  programType?: ProgramTypes
+  programType?: ProgramTypes | string
   images?: ImageObj
   releaseYear?: number
 }
