@@ -13,7 +13,7 @@ import {
 import { FC } from 'react'
 
 import { ArrowForwardIcon } from '@chakra-ui/icons'
-import { MovieItem } from '../../redux/reducer'
+import { MovieItem } from '../../types/movies'
 
 type ModalMovieProps = {
   onClose: () => void
