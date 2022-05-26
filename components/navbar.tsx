@@ -54,8 +54,8 @@ const Navbar: FC<NavBarProps> = props => {
         h="3.5rem"
         maxW="8xl"
         flexWrap="wrap"
-        align="center"
-        justify="space-between"
+        alignItems="center"
+        justifyContent="space-between"
       >
         <Flex align="center" mr={5}>
           <Logo />
